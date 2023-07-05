@@ -39,27 +39,27 @@ const Home = () => {
             <Head>
                 <title>Sourav Bose - Homepage</title>
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
-                <link rel="favicon" href="https://anupam-homepage.vercel.app/favicon.png" />
-                <link rel="shortcut icon" href="https://anupam-homepage.vercel.app/favicon.png" type="image/x-icon" />
+                <link rel="Screenshot (86)" href="https://sourav-homepage.vercel.app/Screenshot (86).png" />
+                <link rel="shortcut icon" href="https://sourav-homepage.vercel.app/Screenshot (86).png" type="image/x-icon" />
 
                 <meta name="description" content="Greeting there ! My name is Sourav Bose. I am a developer. Welcome to my portfolio website! ❤️" />
 
                 <meta itemProp="name" content="Anupam Kumar Khamrai - Homepage" />
                 <meta itemProp="description" content="Greeting there ! My name is Sourav Bose. I am a developer. Welcome to my portfolio website! ❤️" />
-                <meta itemProp="image" content="https://anupam-homepage.vercel.app/favicon.png" />
+                <meta itemProp="image" content="https://sourav-homepage.vercel.app/Screenshot (86).png" />
 
-                <meta property="og:url" content="https://anupam-homepage.vercel.app" />
+                <meta property="og:url" content="https://sourav-homepage.vercel.app" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Sourav Bose - Homepage" />
                 <meta property="og:description" content="Greeting there ! My name is Sourav Bose. I am a  developer. Welcome to my portfolio website! ❤️" />
-                <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
+                <meta property="og:image" content="https://sourav-homepage.vercel.app/Screenshot (86).png" />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Anupam Kumar Khamrai - Homepage" />
                 <meta name="twitter:description" content="Greeting there ! My name is Sourav Bose. I am a  developer. Welcome to my portfolio website! ❤️" />
-                <meta name="twitter:image" content="https://anupam-homepage.vercel.app/favicon.png" />
-                <meta name="twitter:site" content="@anupam-homepage" />
-                <meta name="twitter:creator" content="@1Khamrai" />
+                <meta name="twitter:image" content="https://sourav-homepage.vercel.app/Screenshot (86).png" />
+                <meta name="twitter:site" content="@sourav-homepage" />
+                <meta name="twitter:creator" content="@SouravBose255" />
             </Head>
                 <Section delay={0.1}>
                     <Box fontSize="15px" fontWeight="semibold" border="lg" mb="5" mt="40" p="3" textAlign="center" borderRadius="8px" bg={useColorModeValue('whiteAlpha.400', 'whiteAlpha.200')} style={{ backdropFilter: 'blur(10px)' }}>
