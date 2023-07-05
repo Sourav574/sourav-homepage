@@ -55,7 +55,7 @@ const Home = () => {
                 <meta property="og:image" content="https://sourav-homepage.vercel.app/Screenshot (86).png" />
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Anupam Kumar Khamrai - Homepage" />
+                <meta name="twitter:title" content="Sourav Bose - Homepage" />
                 <meta name="twitter:description" content="Greeting there ! My name is Sourav Bose. I am a  developer. Welcome to my portfolio website! ❤️" />
                 <meta name="twitter:image" content="https://sourav-homepage.vercel.app/Screenshot (86).png" />
                 <meta name="twitter:site" content="@sourav-homepage" />
