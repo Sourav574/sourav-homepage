@@ -124,7 +124,7 @@ const Home = () => {
                     </Flex>
                     <Box ml="2" pb="3" mt="3">
                         <BioSection>
-                            <BioYear>2003</BioYear>
+                            <BioYear>2001</BioYear>
                             Born in Kharagpur, West Bengal, India.
                         </BioSection>
                         <BioSection>
