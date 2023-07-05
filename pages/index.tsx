@@ -37,33 +37,33 @@ const Home = () => {
     return (
         <>
             <Head>
-                <title>Anupam Kumar Khamrai - Homepage</title>
+                <title>Sourav Bose - Homepage</title>
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
                 <link rel="favicon" href="https://anupam-homepage.vercel.app/favicon.png" />
                 <link rel="shortcut icon" href="https://anupam-homepage.vercel.app/favicon.png" type="image/x-icon" />
 
-                <meta name="description" content="Greeting there ! My name is Sourav Bose. I am a indie developer. Welcome to my portfolio website ! ❤️" />
+                <meta name="description" content="Greeting there ! My name is Sourav Bose. I am a developer. Welcome to my portfolio website! ❤️" />
 
                 <meta itemProp="name" content="Anupam Kumar Khamrai - Homepage" />
-                <meta itemProp="description" content="Greeting there ! My name is Sourav Bose. I am a indie developer. Welcome to my portfolio website ! ❤️" />
+                <meta itemProp="description" content="Greeting there ! My name is Sourav Bose. I am a developer. Welcome to my portfolio website! ❤️" />
                 <meta itemProp="image" content="https://anupam-homepage.vercel.app/favicon.png" />
 
                 <meta property="og:url" content="https://anupam-homepage.vercel.app" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Sourav Bose - Homepage" />
-                <meta property="og:description" content="Greeting there ! My name is Sourav Bose. I am a indie developer. Welcome to my portfolio website ! ❤️" />
+                <meta property="og:description" content="Greeting there ! My name is Sourav Bose. I am a  developer. Welcome to my portfolio website! ❤️" />
                 <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Anupam Kumar Khamrai - Homepage" />
-                <meta name="twitter:description" content="Greeting there ! My name is Anupam Kumar Khamrai. I am a indie developer. Welcome to my portfolio website ! ❤️" />
+                <meta name="twitter:description" content="Greeting there ! My name is Sourav Bose. I am a  developer. Welcome to my portfolio website! ❤️" />
                 <meta name="twitter:image" content="https://anupam-homepage.vercel.app/favicon.png" />
                 <meta name="twitter:site" content="@anupam-homepage" />
                 <meta name="twitter:creator" content="@1Khamrai" />
             </Head>
                 <Section delay={0.1}>
                     <Box fontSize="15px" fontWeight="semibold" border="lg" mb="5" mt="40" p="3" textAlign="center" borderRadius="8px" bg={useColorModeValue('whiteAlpha.400', 'whiteAlpha.200')} style={{ backdropFilter: 'blur(10px)' }}>
-                        Hello there, I&apos;m Anupam an Indie Developer based in India.
+                        Hello there, I&apos;m Sourav a Developer from India.
                     </Box>
                     <div>
                         {isLargerThan650 &&
@@ -106,7 +106,7 @@ const Home = () => {
                         </Text>
                     </Flex>
                     <Text fontWeight={400} fontSize="16px" ml="2" mr="2" mt="3" textAlign="justify">
-                        &nbsp;&nbsp;My name is Sourav, a BCA student with an interest in web development and automation. I love bringing ideas to life and experimenting with new tools to create efficient applications. I am also an anime enthusiast and enjoy watching different genres of anime and manga.
+                        &nbsp;&nbsp;My name is Sourav, a BCA student interested in web development and automation. I love bringing ideas to life and experimenting with new tools to create efficient applications. I am also an anime enthusiast and enjoy watching different genres of anime and reading manga.
                     </Text>
                     <Center>
                         <Button mt="5" colorScheme="teal" _hover={{ cursor: "pointer",colorScheme: "whatsapp" }}>
@@ -125,19 +125,19 @@ const Home = () => {
                     <Box ml="2" pb="3" mt="3">
                         <BioSection>
                             <BioYear>2003</BioYear>
-                            Born in Kharagpur ( খড়গপুর ), India.
+                            Born in Kharagpur, West Bengal, India.
                         </BioSection>
                         <BioSection>
                             <BioYear>2018</BioYear>
-                            Completed Secondary education from Kharagpur Silver Jubile High School.
+                            Completed Secondary Education at Kharagpur Silver Jubilee High School.
                         </BioSection>
                         <BioSection>
                             <BioYear>2020</BioYear>
-                            Completed Higher Secondary education from Kharagpur Silver Jubile High School.
+                            Completed Higher Secondary Education at Kharagpur Silver Jubilee High School.
                         </BioSection>
                         <BioSection>
                             <BioYear>2023</BioYear>
-                            Pursuing BCA at Midnapore College Autonomous and freelancing.
+                            Pursuing BCA at Midnapore College Autonomous and Freelancing.
                         </BioSection>
                     </Box>
                 </Section>
@@ -148,7 +148,7 @@ const Home = () => {
                         </Text>
                     </Flex>
                     <Text pl="2" mt="3" fontWeight="semibold">
-                        &nbsp;&nbsp;&nbsp;Art, Music, Drawing, Crafting,{' '}<Link textDecoration="none" color="pink.300" href='https://500px.com/p/mxq8599pzp?view=photos' isExternal _hover={{ textDecoration: "underline", color: "pink.300", textUnderlineOffset: 3 }}>Photography</Link>.
+                        &nbsp;&nbsp;&nbsp;Music, Cricket, Anime.
                     </Text>
                 </Section>
                 <Section delay={0.9}>
@@ -158,9 +158,9 @@ const Home = () => {
                         </Text>
                     </Flex>
                     <Flex flexDirection="column" alignItems="baseline">
-                        <Button variant="ghost" color="teal.300" ><FaTwitter /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://twitter.com/1Khamrai' isExternal>@1Khamrai</Link></Button>
-                        <Button variant="ghost" color="teal.300" ><FaFacebook /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.facebook.com/anupam.khamrai.3' isExternal>@AnupamKhamrai</Link></Button>
-                        <Button variant="ghost" color="teal.300" ><FaInstagram /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.instagram.com/otaku_anupam_k/' isExternal>@otaku_anupam_k</Link></Button>
+                        <Button variant="ghost" color="teal.300" ><FaTwitter /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://twitter.com/SouravBose255' isExternal>@SouravBose255</Link></Button>
+                        <Button variant="ghost" color="teal.300" ><FaFacebook /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.facebook.com/sourav.bose.31521?eav=AfbXoQszxTuMfr_PZhlt-XI__lukFR6IwrI1Zt5z7ez_cS1VncTgJOIOKzlMLluxpe0&paipv=0&_rdr' isExternal>@SouravBose</Link></Button>
+                        
                     </Flex>
                 </Section>
         </>
