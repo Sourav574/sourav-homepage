@@ -22,7 +22,7 @@ export default function Navbar() {
 
                     <Nextlink href="/" passHref scroll={false}>
                         <Link alignItems="center" fontFamily="'M PLUS Rounded 1c', sans-serif;" display="flex" as="button" cursor="pointer" fontSize="18.5" p="5px" textDecoration="none" href='/' _hover={{ textDecoration: "none" }}>
-                            <Flex alignItems="center"><GiRabbit />&nbsp;&nbsp;Anupam Khamrai</Flex>
+                            <Flex alignItems="center"><GiRabbit />&nbsp;&nbsp;Sourav Bose</Flex>
                         </Link>
                     </Nextlink>
                     <div>
